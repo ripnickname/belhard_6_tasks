@@ -6,3 +6,17 @@
 Если не был передан словарь, то создает новый из аргументов ключ-значение она составляет
 словарь и возвращает словарь
 """
+
+
+def biggest_dict(d=None, **kwargs):
+    if d is not None:
+        d.update(**kwargs)
+    else:
+        d = {}
+        d.update(**kwargs)
+    return d
+
+
+if __name__ == '__main__':
+    assert biggest_dict(**{'key_1': 1, 'key_2': 2, 'key_3': 3}) == {'key_1': 1, 'key_2': 2, 'key_3': 3}
+    assert biggest_dict({1: 1, 2: 2, 3: 3}, **{'key_1': 1, 'key_2': 2, 'key_3': 3}) == {1: 1, 2: 2, 3: 3, 'key_1': 1, 'key_2': 2, 'key_3': 3}

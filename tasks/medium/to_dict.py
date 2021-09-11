@@ -4,3 +4,8 @@
 значением. Предполагается, что элементы списка будут соответствовать
 правилам задания ключей в словарях.
 """
+
+
+def to_dict(lst: list):
+    dictionary = dict(zip(lst, lst))
+    return dictionary
