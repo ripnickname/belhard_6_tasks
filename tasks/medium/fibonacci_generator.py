@@ -28,4 +28,3 @@ def fibonacci(num_count: int):
         yield a
         a, b = b, a + b
         i += 1
-

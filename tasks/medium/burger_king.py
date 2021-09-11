@@ -91,5 +91,5 @@ def beef():
 @bread
 @cheese
 @salad
-def beef():
+def chicken():
     print('|||| курица ||||')

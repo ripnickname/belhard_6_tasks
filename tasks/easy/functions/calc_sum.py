@@ -10,5 +10,3 @@ def calc_sum(*nums) -> int:
     result = sum(nums)
     print(result)
     return result
-
-

@@ -13,7 +13,6 @@
 """
 from collections import Counter
 
-
 STR_VAL = 'python is the fastest-growing major programming language'
 
 

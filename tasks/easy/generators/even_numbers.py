@@ -22,4 +22,3 @@ if __name__ == "__main__":
     even_gen = get_even_number()
     for i in even_gen:
         print(f'next(even_gen) -> {i}')
-

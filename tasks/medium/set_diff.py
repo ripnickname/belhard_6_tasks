@@ -7,7 +7,7 @@ symmetric, который по умолчанию должен быть False.
 """
 
 
-def set_diff(arg1: set, arg2: set, arg3: set, symmetric = False):
+def set_diff(arg1: set, arg2: set, arg3: set, symmetric=False):
     if symmetric is True:
         result = arg1 ^ arg2 ^ arg3
     else:

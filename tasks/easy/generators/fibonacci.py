@@ -20,4 +20,3 @@ def fibonacci():
     for x in range(1, 10):
         yield a
         a, b = b, a + b
-

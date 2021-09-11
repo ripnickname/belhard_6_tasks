@@ -13,4 +13,3 @@ def get_even_number(n):
     result = n * 2
     print(result)
     return result
-
