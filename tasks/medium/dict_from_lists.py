@@ -7,3 +7,8 @@
 """
 LIST_1 = [str(i) for i in range(20)]
 LIST_2 = [i for i in range(20)]
+
+
+def get_dict_from_lists(LIST_1, LIST_2) -> list:
+    dictionary = dict(zip(LIST_1, LIST_2))
+    return dictionary

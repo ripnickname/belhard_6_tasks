@@ -4,3 +4,11 @@
 
 для расчета суммы можно воспользоваться функцией sum
 """
+
+
+def calc_sum(*nums) -> int:
+    result = sum(nums)
+    print(result)
+    return result
+
+
